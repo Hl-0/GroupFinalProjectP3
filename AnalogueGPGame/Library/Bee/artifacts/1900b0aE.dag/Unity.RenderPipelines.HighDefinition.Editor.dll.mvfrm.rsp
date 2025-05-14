@@ -2,6 +2,7 @@ Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.ref.dll_46EB9B693
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Runtime.ref.dll_CE6A42C97D96EB0A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.HighDefinition.Config.Runtime.ref.dll_3A987D89912D81DA.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.HighDefinition.Runtime.ref.dll_889A075374BEE0B0.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Rendering.Denoising.Runtime.ref.dll_AB8A8A8C6A927A86.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.ShaderGraph.Editor.ref.dll_0F50152946DB09D0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualEffectGraph.Editor.ref.dll_40E84D5AB45D5BAC.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm
@@ -97,11 +98,6 @@ Library\Bee\artifacts\mvdfrm\Unity.Android.Gradle.dll_D9E4C5F85BEA9BAD.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Android.GradleProject.dll_F04383785066ADD8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Android.Types.dll_5571F25D77C608DF.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.Android.Extensions.dll_4A8EA7F15681D60D.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEditor.AppleTV.Extensions.dll_5DCEF6E76CC2FE2B.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Xcode.dll_2EA2DA3BE5BDBB01.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Common.dll_1DE1A19CE3A5606A.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.dll_609F1FBF2AC22B9B.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Xcode.dll_9492CC0446BE3482.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UWP.Extensions.dll_0C9BFF2DEE4AFF76.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WebGL.Extensions.dll_F6A913610144903B.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_7DAE7E495C3853AB.mvfrm
