@@ -1,0 +1,134 @@
+# Blender MTL File: 'None'
+# Material Count: 11
+
+newmtl black_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd black_mat.png
+map_d black_mat.png
+map_Ka black_mat.png
+
+newmtl eye_base_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd eye_base_mat.png
+map_d eye_base_mat.png
+map_Ka eye_base_mat.png
+
+newmtl eye_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd eye_mat.png
+map_d eye_mat.png
+map_Ka eye_mat.png
+
+newmtl eye_outline_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd eye_outline_mat.png
+map_d eye_outline_mat.png
+map_Ka eye_outline_mat.png
+
+newmtl eye_spot_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd eye_spot_mat.png
+map_d eye_spot_mat.png
+map_Ka eye_spot_mat.png
+
+newmtl glass_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd glass_mat.png
+map_d glass_mat.png
+map_Ka glass_mat.png
+
+newmtl hair_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hair_mat.png
+map_d hair_mat.png
+map_Ka hair_mat.png
+
+newmtl lip_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd lip_mat.png
+map_d lip_mat.png
+map_Ka lip_mat.png
+
+newmtl mouth_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd mouth_mat.png
+map_d mouth_mat.png
+map_Ka mouth_mat.png
+
+newmtl skin_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin_mat.png
+map_d skin_mat.png
+map_Ka skin_mat.png
+
+newmtl tooth_mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tooth_mat.png
+map_d tooth_mat.png
+map_Ka tooth_mat.png
