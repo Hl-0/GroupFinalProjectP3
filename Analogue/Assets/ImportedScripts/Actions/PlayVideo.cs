@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 /// <summary>
@@ -12,13 +13,14 @@ public class PlayVideo : MonoBehaviour
     public bool playAtStart = false;
 
     [Tooltip("Material used for playing the video (Uses URP/Unlit by default)")]
-    public Material videoMaterial = null;
+    public RenderTexture videoMaterial = null;
+    public RenderTexture initialTexture = null;
 
     [Tooltip("List of video clips to pull from")]
     public List<VideoClip> videoClips = new List<VideoClip>();
 
     private VideoPlayer videoPlayer = null;
-    private MeshRenderer meshRenderer = null;
+    private RawImage texture = null;
 
     private readonly string shaderUsed = "Universal Render Pipeline/Unlit";
 
@@ -27,16 +29,13 @@ public class PlayVideo : MonoBehaviour
 
     private void Awake()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        texture = GetComponent<RawImage>();
         videoPlayer = GetComponent<VideoPlayer>();
 
         if (videoClips.Count > 0)
             videoPlayer.clip = videoClips[0];
 
-        offMaterial = meshRenderer.material;
-
-        videoMaterial = new Material(Shader.Find(shaderUsed));
-        videoMaterial.color = Color.white;
+        texture.texture = initialTexture;
     }
 
 
@@ -90,7 +89,7 @@ public class PlayVideo : MonoBehaviour
 
     public void Stop()
     {
-        meshRenderer.material = offMaterial;
+        texture.texture = initialTexture;
         videoPlayer.Stop();
     }
 
@@ -102,7 +101,7 @@ public class PlayVideo : MonoBehaviour
 
     public void TogglePlayPause()
     {
-        meshRenderer.material = videoMaterial;
+        texture.texture = videoMaterial;
 
         if (videoPlayer.isPlaying)
             videoPlayer.Pause();
@@ -124,7 +123,7 @@ public class PlayVideo : MonoBehaviour
 
     private void ApplyVideoMaterial()
     {
-        meshRenderer.material = videoMaterial;
+        texture.texture = videoMaterial;
     }
 
     private void OnValidate()
